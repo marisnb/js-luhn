@@ -1,7 +1,7 @@
 'use strict'
 
 const test = require('tape')
-const luhn = require('../lib/index')
+const luhn = require('./index')
 
 test(function (t) {
   t.ok(luhn('4242424242424242'), 'passing')
